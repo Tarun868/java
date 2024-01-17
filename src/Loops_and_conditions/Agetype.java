@@ -6,10 +6,10 @@ public class Agetype {
         Scanner scanner= new Scanner(System.in);
         System.out.println("Enter age");
         int x= scanner.nextInt();
-        if(x<=13){
+        if(x<13){
             System.out.println("You are a Kid");
 
-        } else if (x>=19) {
+        } else if (x>19) {
             System.out.println("You are an Adult");
 
         }
