@@ -5,7 +5,7 @@ import functionalInterfaces.Swap;
 public class SwapTest {
     @Test
     public void testSwapIntegers() {
-        //Swap integerSwap = new Swap();
+       
 
 
         Swap.swapIntegers( 4 ,5);
